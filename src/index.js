@@ -4,6 +4,7 @@ const heartWidth = 30;
 const heartAreaWidth = 100;
 
 const trajectories = ['trajectory1', 'trajectory2', 'trajectory3', 'trajectory4'];
+
 document.querySelector('.likerButton').addEventListener('click', () => {
   const heart = document.createElement('img');
   heart.src = Heart;
